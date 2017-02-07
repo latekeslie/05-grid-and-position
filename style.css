@@ -1,8 +1,99 @@
 body {
   margin: 0;
   background: tomato;
+  font-family: sans-serif;
 }
 
- * {
-   box-sizing: border-box;
- }
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20rem;
+  position: absolute;
+  left: 0;
+  top: 16%;
+  transform: translate(-50%, 0);
+}
+
+li {
+  margin: .5rem 1rem;
+}
+
+.header {
+  background-color: white;
+  align-items: center;
+  overflow: auto;
+}
+
+
+/*Header*/
+
+.name {
+  float: left;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.menu-container {
+  float: right;
+}
+
+
+/*Grid*/
+
+.wrapper {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.grid-item {
+  margin: 1rem;
+  flex-basis: calc(100% / 2 - 1rem - 1rem);
+  flex-grow: 1;
+}
+
+.card {
+  background-color: blue;
+  min-width: 8rem;
+}
+
+.card-header {
+  position: relative;
+  background-color: yellow;
+  padding: .5rem;
+}
+
+.week-number {
+  background-color: white;
+  padding: 1rem;
+  max-width: 7rem;
+  position: absolute;
+  left: 50%;
+  top: -30%;
+  transform: translate(-50%);
+}
+
+.title {
+  margin-left: 2rem;
+}
+
+.text {
+  margin: 0;
+  padding: 1rem;
+}
