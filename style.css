@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: tomato;
+  background: white;
   font-family: sans-serif;
 }
 
@@ -29,9 +29,11 @@ li {
 }
 
 .header {
-  background-color: white;
+  background-color: #3c82c2;
   align-items: center;
   overflow: auto;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
 
 
@@ -69,24 +71,26 @@ li {
 }
 
 .card {
-  background-color: blue;
+  background-color: white;
   min-width: 8rem;
 }
 
 .card-header {
   position: relative;
-  background-color: yellow;
+  background-color: #d7993a;
   padding: .5rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .week-number {
-  background-color: white;
+  background-color: #3c82c2;
   padding: 1rem;
   max-width: 7rem;
   position: absolute;
   left: 50%;
   top: -30%;
   transform: translate(-50%);
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .title {
@@ -96,4 +100,5 @@ li {
 .text {
   margin: 0;
   padding: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
